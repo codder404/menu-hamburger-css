@@ -46,3 +46,21 @@ body {
 .icon-hamburguer::after {
   bottom: -10px;
 }
+
+input {
+  display: none;
+}
+
+input:checked ~ label .icon-hamburguer {
+  transform: rotate(45deg);
+}
+
+input:checked ~ label .icon-hamburguer::before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+input:checked~label .icon-hamburguer::after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
