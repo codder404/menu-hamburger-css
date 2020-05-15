@@ -19,6 +19,11 @@ body {
   right: 25px;
   border-radius: 50%;
   cursor: pointer;
+  transition: box-shadow 1s ease-in-out;
+}
+
+.menu:hover {
+  box-shadow: 0 0 0 8px #fff, 0 0 0 8px #fff;
 }
 
 .icon-hamburguer {
